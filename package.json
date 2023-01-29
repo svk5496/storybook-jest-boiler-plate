@@ -88,17 +88,5 @@
     "styled-reset": "^4.4.5",
     "ts-jest": "^29.0.5",
     "webpack": "^5.75.0"
-  },
-  "description": "1. typescript 2. React-router-dom 3. styled-component 4. recoil 5. jest 6. storybook 7. react-hook-form",
-  "main": "jest.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/svk5496/storybook-jest-boiler-plate.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/svk5496/storybook-jest-boiler-plate/issues"
-  },
-  "homepage": "https://github.com/svk5496/storybook-jest-boiler-plate#readme"
+  }
 }
