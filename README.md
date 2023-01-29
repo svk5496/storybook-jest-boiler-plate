@@ -4,27 +4,27 @@
 
 # How to clone
 
-1. 클론 할 주소를 복사합니다
+## 1. 클론 할 주소를 복사합니다
 
 ```
 git clone https://github.com/svk5496/storybook-jest-boiler-plate.git
 ```
 
-2. 복사할 디렉토리로 가서 붙여넣기를 합니다
+## 2. 복사할 디렉토리로 가서 붙여넣기를 합니다
 
-3. node module package들을 인스톨 합니다
+## 3. node module package들을 인스톨 합니다
 
 ```
 npm install
 ```
 
-4. 가장 상위폴더(src와 같은 레벨)에 .storybook 폴더를 만듭니다
+## 4. 가장 상위폴더(src와 같은 레벨)에 .storybook 폴더를 만듭니다
 
-5. 폴더 안에 두개의 파일을 추가합니다
+## 5. 폴더 안에 두개의 파일을 추가합니다
+
+main.js
 
 ```javascript
-main.js;
-
 module.exports = {
   stories: ["../src/**/*.stories.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
   addons: [
@@ -46,9 +46,9 @@ module.exports = {
 };
 ```
 
-```javascript
-preview.js;
+preview.js
 
+```javascript
 import { ThemeProvider } from "styled-components";
 import { lightTheme } from "../src/styles";
 import React from "react";
@@ -104,14 +104,14 @@ export const parameters = {
 };
 ```
 
-6. 명령어
+## 6. 명령어
 
 ```
 npm run start : 리액트 앱 실행
 npm run storybook : storybook 실행
 ```
 
-7. 홈페이지가 제대로 작동하지 않을시
+## 7. 홈페이지가 제대로 작동하지 않을시
 
 package.json 파일을 확인하시고 아래 파일들을 지우시면 localhost에서 잘 작동합니다.
 
