@@ -20,9 +20,7 @@ npm install
 
 ## 4. 가장 상위폴더(src와 같은 레벨)에 .storybook 폴더를 만듭니다
 
-<div>
     <img src="https://velog.s3.ap-northeast-2.amazonaws.com/jest-github.png"></img>
-</div>
 
 ## 5. 폴더 안에 두개의 파일을 추가합니다
 
